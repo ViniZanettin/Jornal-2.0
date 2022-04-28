@@ -1,0 +1,112 @@
+.flex-container {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    text-align: left;
+    }
+  
+  
+  .flex-container > div {
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 10px;
+    font-size: 30px;
+  }
+
+  .container {
+      flex-direction: column;
+  }
+.menuzito{
+  display: inline;
+  font-size: 3vh;
+  padding: 10px;
+  margin: 5%;
+  animation: aparecer 2s;
+}
+body{
+  margin: 0px;
+  padding: 0xp;
+   font-size: 20px;
+   background-color: rgb(255, 255, 255);
+   font-family: site;
+}
+h1{
+  margin: 0px;
+  padding: 25px;
+}
+.menu{
+  margin: 0px;
+  padding: 0xp;
+  text-align: center;
+  height: 30vh;
+  width: 100vw;
+  background-color: brown;
+  color: white;
+  animation: menu_aparecer 1.5s;
+}
+.imgManchete{
+  width: 200px;
+  height: 200px;
+  margin: 25px;
+  float: left;
+  animation: aparecer 3s;
+}
+hr{
+  margin: 5px;
+  padding: 0px;
+  width: 95vw;
+  animation: aparecer 3s;
+}
+.texto{
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  animation: aparecer 3s;
+}
+.titulonot{
+  font-size: 40px;
+  color: black;
+  animation: aparecer 3s;
+}
+.textnot{
+ font-size: 20px;
+ animation: aparecer 3s;
+}
+.novidade{
+  font-size: 20px;
+  animation: aparecer 3s;
+}
+.sobre{
+  animation: aparecer 3s;
+}
+.contato{
+  animation: aparecer 3s;
+}
+a:hover,a:link,a:visited,titulonot{
+  color: white;
+  text-decoration:none;
+}
+@font-face {
+  font-family: site;
+  src: url("./Oswald-VariableFont_wght.ttf");
+}
+@keyframes menu_aparecer {
+  0% {
+      transform: translateY(-30vh);
+  }
+
+  100% {
+      transform: translateY(0);
+  }
+}
+
+@media (max-width: 700px) {
+  .menuzito {
+      font-size: 10px;
+  }
+}
+@media (min-width: 900px) {
+  .menuzito {
+      font-size: 30px;
+  }
+}

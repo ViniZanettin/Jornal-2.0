@@ -1,0 +1,4 @@
+@import "./mixins";
+.contato{
+    @include flexCenter(column);
+}
